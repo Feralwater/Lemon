@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="img/ico/lemon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/style.bundle.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/47a41ccc13.js"></script>
+    <script defer src="js/bundle.js"></script>
+    <title>Lemon</title>
+</head>
+<body>
+<div class="logo">
+    <img alt="logo" src="img/logo.svg">
+</div>
+
+<header class="header">
+    <div class="container">
+        <div class="header__body flex">
+
+            <a class="header__logo" href="#">
+                <img alt="logo" src="img/header-logo.svg">
+            </a>
+            <nav class="header__menu">
+                <ul class="header__list flex">
+                    <li><a class="header__link" href="#">home</a></li>
+                    <li>
+                        <a class="header__link" href="#">recipes</a>
+                        <span class="menu__arrow arrow"></span>
+                        <ul class="sub-header__list">
+                            <li>
+                                <a class="sub-header__link" href="#">recommended</a>
+                            </li>
+                            <li>
+                                <a class="sub-header__link" href="#">popular</a>
+                            </li>
+                            <li>
+                                <a class="sub-header__link" href="#">quick & easy</a>
+                            </li>
+                            <li>
+                                <a class="sub-header__link" href="#">healthy</a>
+                            </li>
+                            <li>
+                                <a class="sub-header__link" href="#">newest</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a class="header__link" href="#">photo galleries</a></li>
+                    <li><a class="header__link" href="#">videos</a></li>
+                    <li><a class="header__link" href="#">all categories</a></li>
+                </ul>
+            </nav>
+            <form action="/" class="header__form search-form">
+                <input class="search-form__field" placeholder="find a recipe" type="search">
+                <button aria-label="Search" class="search-form__button btn-reset" type="submit"></button>
+            </form>
+            <!--            <button aria-label="close menu" class="menu__close btn-reset">-->
+            <!--                <span class="menu__close-line"></span>-->
+            <!--                <span class="menu__close-line"></span>-->
+            <!--                <span class="menu__close-line"></span>-->
+            <!--                <span class="menu__close-line"></span>-->
+            <!--            </button>-->
+            <button aria-label="Open menu" class="header__burger btn-reset">
+                <span class="burger__line burger__line-1"></span>
+                <span class="burger__line burger__line-2"></span>
+                <span class="burger__line burger__line-3"></span>
+                <span class="burger__line burger__line-4"></span>
+            </button>
+
+        </div>
+    </div>
+</header>
+
+<div class="carousel slide container" data-ride="carousel" id="myCarousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item">
+            <img alt="Cake" src="img/slider-1.png">
+            <div class="carousel-caption">
+                <img alt="logo" src="img/logo-slider.png">
+                <h3>Lorem Ipsum Dolor Sit Amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda consequatur dicta dolores
+                    eaque est et facilis fugit nihil perferendis praesentium qui similique, ut veniam vitae! A
+                    consequuntur dignissimos perferendis?</p>
+                <a class="btn-reset wave-btn" href="#">
+                    <span class="wave-btn__text">get it recipe</span>
+                    <span class="wave-btn__waves"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="item">
+            <img alt="Cake" src="img/slider-2.png">
+            <div class="carousel-caption">
+                <img alt="logo" src="img/logo-slider.png">
+                <h3>Bananas Foster Ice Cream Cake</h3>
+                <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts.
+                    Honestly,
+                    this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream
+                    cake.</p>
+                <a class="btn-reset wave-btn" href="#">
+                    <span class="wave-btn__text">get it recipe</span>
+                    <span class="wave-btn__waves"></span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="item active">
+            <img alt="Cake" src="img/slider-3.png">
+            <div class="carousel-caption">
+                <img alt="logo" src="img/logo-slider.png">
+                <h3>Bananas Foster Ice Cream Cake</h3>
+                <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts.
+                    Honestly,
+                    this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream
+                    cake.</p>
+                <a class="btn-reset wave-btn" href="#">
+                    <span class="wave-btn__text">get it recipe</span>
+                    <span class="wave-btn__waves"></span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img alt="Cake" src="img/slider-4.png">
+            <div class="carousel-caption">
+                <img alt="logo" src="img/logo-slider.png">
+                <h3>Bananas Foster Ice Cream Cake</h3>
+                <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts.
+                    Honestly,
+                    this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream
+                    cake.</p>
+                <a class="btn-reset wave-btn" href="#">
+                    <span class="wave-btn__text">get it recipe</span>
+                    <span class="wave-btn__waves"></span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <img alt="Cake" src="img/slider-5.png">
+            <div class="carousel-caption">
+                <img alt="logo" src="img/logo-slider.png">
+                <h3>Bananas Foster Ice Cream Cake</h3>
+                <p>If you're looking for decadence, look no further — you've found the Holy Grail of desserts.
+                    Honestly,
+                    this cake makes us wonder why Bananas Foster hasn't always been served on top of ice cream
+                    cake.</p>
+                <a class="btn-reset wave-btn" href="#">
+                    <span class="wave-btn__text">get it recipe</span>
+                    <span class="wave-btn__waves"></span>
+                </a>
+            </div>
+        </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators flex">
+            <li class="dot" data-slide-to="0" data-target="#myCarousel"></li>
+            <li class="dot" data-slide-to="1" data-target="#myCarousel"></li>
+            <li class="dot active" data-slide-to="2" data-target="#myCarousel"></li>
+            <li class="dot" data-slide-to="3" data-target="#myCarousel"></li>
+            <li class="dot" data-slide-to="4" data-target="#myCarousel"></li>
+        </ol>
+        <!-- Left and right controls -->
+        <a class="carousel-control left" data-slide="prev" href="#myCarousel" id="btn-prev"> </a>
+        <a class="carousel-control right" data-slide="next" href="#myCarousel" id="btn-next"></a>
+    </div>
+</div>
+
+<section class="cards">
+    <div class="container">
+        <div class="cards__row flex">
+            <div class="cards__column">
+                <div class="cards__item">
+                    <div class="cards__image">
+                        <img alt="img01" src="img/catalog-1.png"/>
+                    </div>
+                    <div class="cards__body">
+                        <h3> Raspberry & Cream Frozen Yogurt Pie </h3>
+                        <div class="cards__body-line flex">
+                            <div class="cards__clock flex" title="cooking time">
+                                35 mins
+                            </div>
+                            <div class="cards__comment flex" title="7 comments">
+                                7
+                            </div>
+                            <div class="cards__views flex" title="14 views">
+                                14
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards__column">
+                <div class="cards__item">
+                    <div class="cards__image">
+                        <img alt="img02" src="img/catalog-2.png"/>
+                    </div>
+                    <div class="cards__body">
+                        <h3>Giant Ice Cream Sandwich</h3>
+                        <div class="cards__body-line flex">
+                            <div class="cards__clock flex" title="cooking time">
+                                20 mins
+                            </div>
+                            <div class="cards__comment flex" title="14 comments">
+                                4
+                            </div>
+                            <div class="cards__views flex" title="365 views">
+                                365
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards__column">
+                <div class="cards__item">
+                    <div class="cards__image">
+                        <img alt="img03" src="img/catalog-3.png"/>
+                    </div>
+                    <div class="cards__body">
+                        <h3>Dark Chocolate Crunch Ice Cream Sandwich Cake</h3>
+                        <div class="cards__body-line flex">
+                            <div class="cards__clock flex" title="cooking time">
+                                15 mins
+                            </div>
+                            <div class="cards__comment flex" title="4 comments">
+                                4
+                            </div>
+                            <div class="cards__views flex" title="167 views">
+                                167
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="popular">
+    <div class="container">
+        <h2 class="popular__title tomarillo">Popular Now</h2>
+        <div class="popular__container">
+            <div class="popular__row flex">
+                <div class="popular__column-1">
+                    <div class="popular__item">
+                        <div class="popular__image">
+                            <img alt="img01" src="img/popular-1.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular__column-2">
+                    <div class="popular__item">
+                        <div class="popular__body flex">
+
+                            <h2 class="popular__title green">
+                                Bananas Foster Ice Cream Cake
+                            </h2>
+
+                            <div class="popular__time flex">
+
+                                <div class="cards__clock flex" title="cooking time">
+                                    15 mins
+                                </div>
+                                <div class="popular__complexity flex" title="Complexity">
+                                    <span>Easy</span>
+                                </div>
+
+                                <a class="btn-reset popular__btn" href="#">save recipe</a>
+                            </div>
+
+                            <div class="popular__filling">
+                                <div class="popular__subdescr">
+                                    1 (8 ounce) container frozen whipped topping, thawed
+                                    20 chocolate round wafers, divided
+                                    1 (7 1/4 ounce) bottle Smucker's® Hot Dark Chocolate Microwaveable Topping, divided
+                                </div>
+
+                                <h4 class="popular__subtitle">
+                                    Directions
+                                </h4>
+
+                                <div class="popular__descr">
+                                    <span>arrange</span> 8 to 9 ice cream sandwiches in 9-inch square pan, cutting to
+                                    form an even
+                                    layer.
+                                    Spread with half of whipped topping. Break or crush chocolate wafers and sprinkle
+                                    over
+                                    the whipped cream. Microwave 1 cup of chocolate topping into small microwave-safe
+                                    bowl
+                                    on HIGH for 30 seconds. Drizzle evenly over wafers.
+                                    TOP with remaining 8 to 9 ice cream sandwiches to form an even layer. Spread with
+                                    remaining whipped topping. Freeze 3 hours or overnight.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci distinctio est
+                                    iste laborum neque pariatur rerum veritatis vero voluptas voluptatibus? Animi cum
+                                    esse explicabo nulla, officiis similique sunt temporibus unde.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="footer">
+    <div class="container footer__container">
+
+        <div class="footer__top flex">
+
+            <a class="footer__logo" href="#">
+                <img alt="logo" src="img/logo-footer.png">
+            </a>
+            <div class="footer-right flex">
+
+                <ul class="footer__list flex">
+                    <li><a class="footer__link" href="#">home</a></li>
+                    <li><a class="footer__link" href="#">recipes</a></li>
+                    <li><a class="footer__link" href="#">photo galleries</a></li>
+                    <li><a class="footer__link" href="#">videos</a></li>
+                    <li><a class="footer__link" href="#">all categories</a></li>
+                </ul>
+                <div class="footer__info">© 2016-2017 lemon. all right reserved</div>
+            </div>
+        </div>
+        <div class="footer__bottom flex">
+            <ul class="footer__links flex">
+                <li class="footer__links-item"><a class="footer-bottom__link" href="#"><i aria-hidden="true"
+                                                                                          class="fa fa-google-plus"></i></a>
+                </li>
+                <li class="footer__links-item"><a class="footer-bottom__link" href="#"><i aria-hidden="true"
+                                                                                          class="fa fa-twitter"></i></a>
+                </li>
+                <li class="footer__links-item"><a class="footer-bottom__link" href="#"><i aria-hidden="true"
+                                                                                          class="fa fa-facebook"></i></a>
+                </li>
+                <li class="footer__links-item"><a class="footer-bottom__link" href="#"><i aria-hidden="true"
+                                                                                          class="fa fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
