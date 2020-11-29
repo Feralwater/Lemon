@@ -635,6 +635,7 @@ body.touch .sub-header__list.open {
         left: 0;
         transition: all .3s ease 0s; }
     .header .header__list {
+      margin-top: 80px;
       display: block; }
       .header .header__list li {
         margin: 0 0 20px 10px; }
@@ -644,10 +645,11 @@ body.touch .sub-header__list.open {
         left: 0;
         top: 0; }
     .header .header__logo {
-      margin-left: 15px; }
+      margin-left: 15px;
+      z-index: 20; }
     .header .header__form {
       margin-left: auto;
-      flex: 0 0 110px;
+      flex: 0 0 115px;
       z-index: 16; }
       .header .header__form .search-form__field {
         border: none;
@@ -705,6 +707,24 @@ body.touch .sub-header__list.open {
   .item.active {
     display: block; }
 
+.carousel-control-left,
+.carousel-control-right {
+  display: block;
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  top: 0; }
+  @media (max-width: 576px) {
+    .carousel-control-left,
+    .carousel-control-right {
+      height: 204px; } }
+
+.carousel-control-left {
+  left: 0; }
+
+.carousel-control-right {
+  right: 0; }
+
 .carousel-control {
   display: block;
   position: absolute;
@@ -715,7 +735,6 @@ body.touch .sub-header__list.open {
   border-width: 0 3px 3px 0;
   margin: 10px;
   opacity: 0.4;
-  cursor: pointer;
   transition: opacity .2s ease-in-out; }
   @media (max-width: 576px) {
     .carousel-control {
