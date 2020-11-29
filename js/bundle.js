@@ -97,8 +97,9 @@ header__burger.onclick = function () {
 }
 
 header__list.onclick = function () {
-    header__list.classList.remove('active');
-    back.classList.toggle('lock');
+    header__burger.classList.remove('active');
+    header__menu.classList.remove('active');
+    back.classList.remove('lock');
 }
 
 let isMobile = {
@@ -126,14 +127,17 @@ let body = document.querySelector("body");
 
 if (isMobile.any()) {
     body.classList.add("touch");
-    let arrow = document.querySelectorAll(".arrow");
-    for (i = 0; i < arrow.length; i++) {
-        let thisLink = arrow[i].previousElementSibling;
-        let subMenu = arrow[i].nextElementSibling;
-        let thisArrow = arrow[i];
+    let arrow = document.querySelectorAll(".menu__arrow");
+    for (let i = 0; i < arrow.length; i++) {
+        let arrow2 = arrow[i].querySelectorAll(".arrow");
+        let thisLink = arrow2[i].previousElementSibling;
+        let subMenu = arrow2[i].nextElementSibling;
+        let thisArrow = arrow2[i];
 
         thisLink.classList.add("parent");
-        arrow[i].addEventListener("click", function () {
+        arrow[i].addEventListener("click", function (e) {
+            // e.preventDefault();
+            e.stopPropagation()
             subMenu.classList.toggle("open");
             thisArrow.classList.toggle("active");
         });
