@@ -1,4 +1,4 @@
 # Lemon
 ____
-Second mockup I totally did by my own    
+Second mockup I totally did on my own    
 :wrench: HTML5, CSS, JS
